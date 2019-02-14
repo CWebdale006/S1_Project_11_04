@@ -22,8 +22,8 @@ var secsLeft = 5;
 var timeLeft = ((minsLeft * 60) + secsLeft);
 
 // Inserted a command to run the countdown() function every second. 
-var clockID = countdown();
-setInterval("countdown()", 1000);
+var clockID = setInterval("countdown()", 1000);
+
 
 // Creates the countDown function to update the time left every second. 
 function countdown() {
