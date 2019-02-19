@@ -12,11 +12,11 @@
    Filename:   ph_clock.js     
 
 */
-// Creates a globa variable named minsLeft with an initial value of 0. 
-var minsLeft = 0;
+// Creates a globa variable named minsLeft with an initial value of 30. 
+var minsLeft = 30;
 
-// Creates a global variable named secsLeft, with an initial value of 15. 
-var secsLeft = 5;
+// Creates a global variable named secsLeft, with an initial value of 0. 
+var secsLeft = 0;
 
 // Declares a global variable named timeLeft. Sets the inital value of the variable equal to the number of minutes left multiplied by 60 plus the number of seconds left. 
 var timeLeft = ((minsLeft * 60) + secsLeft);
